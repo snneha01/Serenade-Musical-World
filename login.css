@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./pic/galaxy.jpg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  color: wheat;
+  /* background-size: 100px 100px; */
+}
+.brand img {
+  border-radius: 45%;
+  width: 85px;
+  padding: 0 25px;
+}
+.brand a{
+    text-decoration: none;
+    color: wheat;
+}
+.brand p{
+    display: inline;
+}
+.brand {
+  /* to bring "spotify" to centre  */
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+/* h1{
+    color: white;
+} */
+.container {
+  border: 5px solid wheat;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  /* border: 1px, solid, blue; */
+  padding: 20px;
+}
+
+.container img {
+  width: 78px;
+  border-radius: 45%;
+  margin: 20px 92px;
+}
+.container h1 {
+  color: white;
+  font-size: 40px;
+  border-bottom: 5px solid blue;
+  margin-bottom: 30px;
+  padding: 14px 0;
+}
+
+.box {
+  /* border: 2px solid rgb(144, 6, 6); */
+  /* increase box's size by increasing input and box width */
+  width: 100%;
+  border-bottom: 0.8px solid blue;
+}
+
+.box input {
+  background: none;
+  width: 75%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 12px 0px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.btn {
+  background: none;
+  color: white;
+  font-size: 15px;
+  margin: 20px 0px;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box i {
+  padding: 0 12px;
+  color: white;
+  padding-left: 7px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+.signup {
+  color: wheat;
+}
+.signup a {
+  text-decoration: none;
+  color: wheat;
+}
